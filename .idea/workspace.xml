@@ -15,7 +15,12 @@
     <cargoProject FILE="$PROJECT_DIR$/Cargo.toml" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="97f4dcfb-0405-41a3-91d2-b4524857012b" name="Changes" comment="add ether_demo" />
+    <list default="true" id="97f4dcfb-0405-41a3-91d2-b4524857012b" name="Changes" comment="add learn_ethers">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cargo.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn_ethers/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/learn_ethers/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn_ethers/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/learn_ethers/src/main.rs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -89,7 +94,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1667800650245</updated>
-      <workItem from="1667800651283" duration="1525000" />
+      <workItem from="1667800651283" duration="3743000" />
     </task>
     <task id="LOCAL-00001" summary="add ether_demo">
       <created>1667800848665</created>
@@ -105,7 +110,21 @@
       <option name="project" value="LOCAL" />
       <updated>1667801394723</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="frist commit">
+      <created>1667802317421</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1667802317421</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add learn_ethers">
+      <created>1667802426090</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1667802426090</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -127,6 +146,8 @@
       <path value="$PROJECT_DIR$/ether_demo" />
     </ignored-roots>
     <MESSAGE value="add ether_demo" />
-    <option name="LAST_COMMIT_MESSAGE" value="add ether_demo" />
+    <MESSAGE value="frist commit" />
+    <MESSAGE value="add learn_ethers" />
+    <option name="LAST_COMMIT_MESSAGE" value="add learn_ethers" />
   </component>
 </project>
