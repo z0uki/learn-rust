@@ -5,7 +5,7 @@ use eyre::Result;
 #[tokio::main]
 async fn main() -> Result<()> {
     //加载私钥实例化钱包
-    let wallet = "a96b7dff3c7e1ddf41dc432f4d4cc97ab82f99c75ea84215f213a2869adec0fa".parse::<LocalWallet>()?;
+    let wallet = "a96b7dff3c7e1ddf41dc432f4d4cc97ab82f99c75ea84215f213a2869ade0000".parse::<LocalWallet>()?;
     println!("{}",wallet.address());
 
     //连接https rpc

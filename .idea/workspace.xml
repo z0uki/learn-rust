@@ -15,12 +15,7 @@
     <cargoProject FILE="$PROJECT_DIR$/Cargo.toml" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="97f4dcfb-0405-41a3-91d2-b4524857012b" name="Changes" comment="add learn_ethers">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cargo.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learn_ethers/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/learn_ethers/Cargo.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learn_ethers/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/learn_ethers/src/main.rs" afterDir="false" />
-    </list>
+    <list default="true" id="97f4dcfb-0405-41a3-91d2-b4524857012b" name="Changes" comment="change learn_ethers" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -94,7 +89,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1667800650245</updated>
-      <workItem from="1667800651283" duration="3743000" />
+      <workItem from="1667800651283" duration="4073000" />
     </task>
     <task id="LOCAL-00001" summary="add ether_demo">
       <created>1667800848665</created>
@@ -124,7 +119,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667802426090</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="change learn_ethers">
+      <created>1667804694190</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1667804694190</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -148,6 +150,7 @@
     <MESSAGE value="add ether_demo" />
     <MESSAGE value="frist commit" />
     <MESSAGE value="add learn_ethers" />
-    <option name="LAST_COMMIT_MESSAGE" value="add learn_ethers" />
+    <MESSAGE value="change learn_ethers" />
+    <option name="LAST_COMMIT_MESSAGE" value="change learn_ethers" />
   </component>
 </project>
