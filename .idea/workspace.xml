@@ -15,13 +15,10 @@
     <cargoProject FILE="$PROJECT_DIR$/Cargo.toml" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="97f4dcfb-0405-41a3-91d2-b4524857012b" name="Changes" comment="change learn_ethers">
-      <change afterPath="$PROJECT_DIR$/basic/src/display.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic/src/print.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/rust.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/rust.iml" afterDir="false" />
+    <list default="true" id="97f4dcfb-0405-41a3-91d2-b4524857012b" name="Changes" comment="update main.rs">
+      <change afterPath="$PROJECT_DIR$/basic/src/control_flow.rs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cargo.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/basic/src/main.rs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +66,7 @@
     "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
 }]]></component>
-  <component name="RunManager" selected="Cargo.Test display::test">
+  <component name="RunManager" selected="Cargo.Run basic">
     <configuration name="Run basic" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
       <option name="command" value="run --package basic --bin basic" />
       <option name="workingDirectory" value="file://$PROJECT_DIR$" />
@@ -87,8 +84,8 @@
         <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Run learn_ethers" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
-      <option name="command" value="run --package learn_ethers --bin learn_ethers" />
+    <configuration name="Run learn_smartpointer" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="run --package learn_smartpointer --bin learn_smartpointer" />
       <option name="workingDirectory" value="file://$PROJECT_DIR$" />
       <option name="channel" value="DEFAULT" />
       <option name="requiredFeatures" value="true" />
@@ -104,8 +101,8 @@
         <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Run learn_smartpointer" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
-      <option name="command" value="run --package learn_smartpointer --bin learn_smartpointer" />
+    <configuration name="Test control_flow::test" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="test --package basic --bin basic control_flow::test -- --exact" />
       <option name="workingDirectory" value="file://$PROJECT_DIR$" />
       <option name="channel" value="DEFAULT" />
       <option name="requiredFeatures" value="true" />
@@ -157,11 +154,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cargo.Test display::test" />
         <item itemvalue="Cargo.Run basic" />
+        <item itemvalue="Cargo.Test control_flow::test" />
+        <item itemvalue="Cargo.Test display::test" />
         <item itemvalue="Cargo.Test print::test" />
         <item itemvalue="Cargo.Run learn_smartpointer" />
-        <item itemvalue="Cargo.Run learn_ethers" />
       </list>
     </recent_temporary>
   </component>
@@ -178,7 +175,7 @@
       <option name="presentableId" value="Default" />
       <updated>1667800650245</updated>
       <workItem from="1667800651283" duration="5088000" />
-      <workItem from="1667884792859" duration="5388000" />
+      <workItem from="1667884792859" duration="9042000" />
     </task>
     <task id="LOCAL-00001" summary="add ether_demo">
       <created>1667800848665</created>
@@ -222,7 +219,35 @@
       <option name="project" value="LOCAL" />
       <updated>1667804771428</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="add basic">
+      <created>1667891029320</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1667891029320</updated>
+    </task>
+    <task id="LOCAL-00008" summary="add print">
+      <created>1667891040538</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1667891040538</updated>
+    </task>
+    <task id="LOCAL-00009" summary="add display">
+      <created>1667891049240</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1667891049240</updated>
+    </task>
+    <task id="LOCAL-00010" summary="update main.rs">
+      <created>1667891064485</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1667891064485</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -247,6 +272,10 @@
     <MESSAGE value="frist commit" />
     <MESSAGE value="add learn_ethers" />
     <MESSAGE value="change learn_ethers" />
-    <option name="LAST_COMMIT_MESSAGE" value="change learn_ethers" />
+    <MESSAGE value="add basic" />
+    <MESSAGE value="add print" />
+    <MESSAGE value="add display" />
+    <MESSAGE value="update main.rs" />
+    <option name="LAST_COMMIT_MESSAGE" value="update main.rs" />
   </component>
 </project>
