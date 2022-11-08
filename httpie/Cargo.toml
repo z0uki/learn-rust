@@ -6,6 +6,7 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+anyhow = "1.0.66" #错误处理
 reqwest = { version = "0.11.12", defalut-features = false, features = ["json", "rustls-tls"] } #http客户端
 tokio = { version = "1", features = ["full"] } #异步运行时
 
