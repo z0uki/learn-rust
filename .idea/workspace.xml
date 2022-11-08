@@ -13,12 +13,12 @@
   </component>
   <component name="CargoProjects">
     <cargoProject FILE="$PROJECT_DIR$/Cargo.toml" />
+    <cargoProject FILE="$PROJECT_DIR$/httpie/Cargo.toml" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="97f4dcfb-0405-41a3-91d2-b4524857012b" name="Changes" comment="update main.rs">
-      <change afterPath="$PROJECT_DIR$/basic/src/control_flow.rs" afterDir="false" />
+    <list default="true" id="97f4dcfb-0405-41a3-91d2-b4524857012b" name="Changes" comment="add control_flow.rs">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/basic/src/main.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.toml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -175,7 +175,7 @@
       <option name="presentableId" value="Default" />
       <updated>1667800650245</updated>
       <workItem from="1667800651283" duration="5088000" />
-      <workItem from="1667884792859" duration="9042000" />
+      <workItem from="1667884792859" duration="9940000" />
     </task>
     <task id="LOCAL-00001" summary="add ether_demo">
       <created>1667800848665</created>
@@ -247,7 +247,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667891064485</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="add control_flow.rs">
+      <created>1667894748453</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1667894748453</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -276,6 +283,7 @@
     <MESSAGE value="add print" />
     <MESSAGE value="add display" />
     <MESSAGE value="update main.rs" />
-    <option name="LAST_COMMIT_MESSAGE" value="update main.rs" />
+    <MESSAGE value="add control_flow.rs" />
+    <option name="LAST_COMMIT_MESSAGE" value="add control_flow.rs" />
   </component>
 </project>

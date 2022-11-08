@@ -2,5 +2,6 @@
 
 members = [
     "learn_ethers",
-    "basic"
+    "basic",
+    "httpie"
 ]
