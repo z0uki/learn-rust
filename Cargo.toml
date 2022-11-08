@@ -2,4 +2,5 @@
 
 members = [
     "learn_ethers",
+    "basic"
 ]
